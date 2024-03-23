@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remotes -->
+	<remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+	<!--Tree -->
+	<project path="device/Samsung/gta4l" name="android_device_samsung_gta4l" remote="gh" revision="lineage-21" />
+  <project path="device/Samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="gh" revision="lineage-21" />
+	<!--Kernel -->
+	<project path="kernel/Samsung/gta4l" name="android_kernel_samsung_sm6115" remote="gh" revision="lineage-21" />
+	<!--Vendor -->
+	<project path="vendor/Samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="gh" revision="lineage-21" />
+  <project path="vendor/Samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="gh" revision="lineage-21" />
+</manifest>
