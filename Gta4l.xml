@@ -6,7 +6,6 @@
             clone-depth="1" />
 	<!--Tree -->
 	<project path="device/Samsung/gta4l" name="LineageOS/android_device_samsung_gta4l" remote="gh" revision="lineage-21" />
-        <project path="device/Samsung/gta4l-common" name="LineageOS/android_device_samsung_gta4l-common" remote="gh" revision="lineage-21" />
 	<!--Kernel -->
 	<project path="kernel/Samsung/gta4l" name="LineageOS/android_kernel_samsung_sm6115" remote="gh" revision="lineage-21" />
 	<!--Vendor -->
