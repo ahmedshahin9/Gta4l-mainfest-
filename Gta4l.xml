@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Remotes -->
-	<remote name="gh"
-            fetch="https://github.com"
+   <remote name="DarkLord2099"
+            fetch="https://github.com/DarkLord2099"
             clone-depth="1" />
-	<!--Tree -->
-	<project path="device/Samsung/gta4l" name="LineageOS/android_device_samsung_gta4l" remote="gh" revision="lineage-21" />
-	<!--Kernel -->
-	<project path="kernel/Samsung/gta4l" name="LineageOS/android_kernel_samsung_sm6115" remote="gh" revision="lineage-21" />
-	<!--Vendor -->
-	<project path="vendor/Samsung/gta4l" name="TheMuppets/proprietary_vendor_samsung_gta4l" remote="gh" revision="lineage-21" />
-        <project path="vendor/Samsung/gta4l-common" name="TheMuppets/proprietary_vendor_samsung_gta4l-common" remote="gh" revision="lineage-21" />
+    <!--Credit to zhengz/rik0612c for Sources and keeping our device alive -->                            
+ <!--Tree -->
+ <project path="device/samsung/gta4l" name="device_samsung_gta4l" remote="ahmedshahin9" revision="thirteen" />
+
+ <!--Kernel -->
+ <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="DarkLord2099" revision="lineage-20" />
+
+ <!--Vendor -->
+ <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="DarkLord2099" revision="lineage-20" />
+
+ <!--Other HALs-->
+
+ <!-- Dependencies -->
+
+ <!-- Replacements -->
+
+ <!-- Common -->
+ <project path="device/samsung/gta4l-common" name="device_samsung_gta4l-common" remote="ahmedshahin9" revision="thirteen" />
+ <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="DarkLord2099" revision="lineage-20" />
+
+   <!-- Hardware -->
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="DarkLord2099" revision="lineage-20" />
 </manifest>
