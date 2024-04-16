@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="DarkLord2099"
-            fetch="https://github.com/DarkLord2099"
+   <remote name="ahmedshahin9"
+            fetch="https://github.com/ahmedshahin9"
             clone-depth="1" />
     <!--Credit to zhengz/rik0612c for Sources and keeping our device alive -->                            
  <!--Tree -->
